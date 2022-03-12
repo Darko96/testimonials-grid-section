@@ -40,7 +40,7 @@ main {
 
 .testimonial-daniel,
 .testimonial-jonathan {
-  padding: 2.6rem 3.2rem 3.2rem 3.2rem;
+    padding: 2.6rem 3.2rem 0 3.2rem;
 }
 
 .testimonial-box {
@@ -88,6 +88,9 @@ main {
 .testimonial-daniel {
   grid-column: span 2;
   background-color: #733fc8;
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 35.5rem 0;
 }
 
 .testimonial-daniel .testimonial-img,
@@ -216,5 +219,13 @@ main {
     justify-content: center;
     column-gap: 3rem;
     row-gap: 2.4rem;
+  }
+  
+    .testimonial-daniel {
+    grid-column: span 2;
+    background-color: #733fc8;
+    background-image: url("/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 20rem 0;
   }
 }
